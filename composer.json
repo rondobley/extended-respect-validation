@@ -1,0 +1,25 @@
+{
+    "name": "rondobley/extended-respect-validation",
+    "type": "library",
+    "description": "Additional validators for respect/validation",
+    "homepage": "https://github.com/rondobley/extended-respect-validation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ron Dobley",
+            "email": "ron@rondobley.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "respect/validation": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rondobley\\Validation\\": "library/Validation"
+        }
+    }
+}
